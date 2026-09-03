@@ -1,0 +1,52 @@
+/* 전체 라이브러리 컨테이너 (그리드 레이아웃) */
+div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* 개별 도서 카드 */
+.book-card {
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 책 표지 이미지 */
+.book-cover {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* 책 제목 */
+.book-card h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #212529;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+/* 페이지 수 */
+.book-card h2 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6c757d;
+    margin: 0;
+}
