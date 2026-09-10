@@ -4,7 +4,10 @@ import './index.css';
 // import App from './App';
 // import TodoList from "./01/TodoList";
 // import Library from "./03/enhanced_css/Library";
-import Clock from './04/Clock';
+// import Clock from './04/Clock';
+// import ConfirmDialog from "./04/ConfirmDialog";
+// import ConfirmDialogList from './04/ConfirmDialogList';
+import WelcomeList from './04/WelcomeList'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -14,7 +17,9 @@ setInterval(()=>{
             <React.StrictMode>
                 {/*<App />*/}
                 {/*<TodoList/>*/}
-                <Clock />
+                {/*<Clock />*/}
+                {/*<ConfirmDialogList />*/}
+                <WelcomeList />
             </React.StrictMode>
         );
 
