@@ -7,8 +7,10 @@ import './index.css';
 // import Clock from './04/Clock';
 // import ConfirmDialog from "./04/ConfirmDialog";
 // import ConfirmDialogList from './04/ConfirmDialogList';
-import WelcomeList from './04/WelcomeList'
+// import WelcomeList from './04/WelcomeList'
+// import BookList from './05/exam02/BookList'
 import reportWebVitals from './reportWebVitals';
+import UserInfoList from "./05/exam03/UserInfoList";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +21,8 @@ setInterval(()=>{
                 {/*<TodoList/>*/}
                 {/*<Clock />*/}
                 {/*<ConfirmDialogList />*/}
-                <WelcomeList />
+                {/*<WelcomeList />*/}
+                <UserInfoList/>
             </React.StrictMode>
         );
 

@@ -1,0 +1,20 @@
+.comment {
+    width: 500px;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.comment-date {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #888;
+}
