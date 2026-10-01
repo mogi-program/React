@@ -9,8 +9,10 @@ import './index.css';
 // import ConfirmDialogList from './04/ConfirmDialogList';
 // import WelcomeList from './04/WelcomeList'
 // import BookList from './05/exam02/BookList'
+// import UserInfoList from "./05/exam03/UserInfoList";
+import NotificationList from './06/NotificationList';
 import reportWebVitals from './reportWebVitals';
-import UserInfoList from "./05/exam03/UserInfoList";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +24,8 @@ setInterval(()=>{
                 {/*<Clock />*/}
                 {/*<ConfirmDialogList />*/}
                 {/*<WelcomeList />*/}
-                <UserInfoList/>
+                {/*<UserInfoList/>*/}
+                <NotificationList />
             </React.StrictMode>
         );
 
