@@ -1,0 +1,17 @@
+import React, {useEffect, useState, useRef, useMemo} from "react";
+
+function TestInputWithFocusButton() {
+    const inputElement = useRef(null);
+    const onButtonClick = () => {
+        inputElement.current.focus();
+    }
+
+    return (
+        <div>
+            <input ref={inputElement} type="text" /> &nbsp;&nbsp;&nbsp;
+            <button onClick={onButtonClick}>Focus the input element</button>
+        </div>
+    )
+}
+
+export default TestInputWithFocusButton;

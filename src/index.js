@@ -9,8 +9,11 @@ import './index.css';
 // import ConfirmDialogList from './04/ConfirmDialogList';
 // import WelcomeList from './04/WelcomeList'
 // import BookList from './05/exam02/BookList'
-// import UserInfoList from "./05/exam03/UserInfoList";
-import NotificationList from './06/NotificationList';
+// // import UserInfoList from "./05/exam03/UserInfoList";
+// import NotificationList from './06/NotificationList';
+// import CounterTest from './07/01/CounterTest';
+// import TestInputWithFocusButton from "./07/02/TestInputWithFocusButton";
+import Accommodate from './07/Accommodate';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -25,7 +28,9 @@ setInterval(()=>{
                 {/*<ConfirmDialogList />*/}
                 {/*<WelcomeList />*/}
                 {/*<UserInfoList/>*/}
-                <NotificationList />
+                {/*<NotificationList />*/}
+                {/*<TestInputWithFocusButton/>*/}
+                <Accommodate />
             </React.StrictMode>
         );
 

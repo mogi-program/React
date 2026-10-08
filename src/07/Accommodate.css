@@ -1,0 +1,98 @@
+/* 전체 화면 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaf7ff;
+}
+
+/* 놀이공원 안내판 */
+div {
+    box-sizing: border-box;
+}
+
+/* Accommodate의 가장 바깥쪽 div */
+body > div {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 안내판 */
+body > div > div {
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+
+    background: white;
+    border: 6px solid #ffcc33;
+    border-radius: 25px;
+
+    box-shadow:
+            0 10px 0 #ff8c42,
+            0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 현재 수용 인원 */
+p:first-child {
+    margin-bottom: 30px;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 버튼 */
+button {
+    padding: 14px 22px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: white;
+    background: #ff6b6b;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+/* 입장 버튼 */
+button:first-child {
+    background: #4dabf7;
+}
+
+/* 퇴장 버튼 */
+button:last-child {
+    background: #ff8787;
+}
+
+/* 버튼에 마우스 올렸을 때 */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 버튼 클릭 */
+button:active {
+    transform: translateY(1px);
+}
+
+/* 정원 초과/가득 참 안내 */
+p:last-child {
+    margin-top: 30px;
+    padding: 15px;
+
+    border-radius: 15px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #b02a37;
+    background: #ffe3e3;
+
+    border: 2px dashed #ff6b6b;
+}
