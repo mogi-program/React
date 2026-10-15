@@ -13,7 +13,13 @@ import './index.css';
 // import NotificationList from './06/NotificationList';
 // import CounterTest from './07/01/CounterTest';
 // import TestInputWithFocusButton from "./07/02/TestInputWithFocusButton";
-import Accommodate from './07/Accommodate';
+// import Accommodate from './07/Accommodate';
+// import ToggleTest from './08/ToggleTest'
+// import MyButtonTest from './08/MyButtonTest'
+// import MyButtonTest2 from './08/MyButtonTest2'
+// import ConfirmButton from "./08/ConfirmButton";
+// import ConfirmButton2 from "./08/ConfirmButton2";
+import ListerTest from "./08/ListenerTest"
 import reportWebVitals from './reportWebVitals';
 
 
@@ -30,7 +36,13 @@ setInterval(()=>{
                 {/*<UserInfoList/>*/}
                 {/*<NotificationList />*/}
                 {/*<TestInputWithFocusButton/>*/}
-                <Accommodate />
+                {/*<Accommodate />*/}
+                {/*<ToggleTest />*/}
+                {/*<MyButtonTest/>*/}
+                {/*<MyButtonTest2/>*/}
+                {/*<ConfirmButton/>*/}
+                {/*<ConfirmButton2/>*/}
+                <ListerTest/>
             </React.StrictMode>
         );
 
