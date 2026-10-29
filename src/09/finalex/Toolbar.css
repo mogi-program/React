@@ -1,0 +1,59 @@
+/* 전체 영역 */
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 400px;
+
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    font-family: Arial, sans-serif;
+}
+
+/* 환영 메시지 */
+.welcome-message {
+    color: #334155;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 버튼 공통 스타일 */
+.toolbar button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+/* 로그인 버튼 */
+.login-button {
+    background-color: #2563eb;
+}
+
+.login-button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* 로그아웃 버튼 */
+.logout-button {
+    background-color: #64748b;
+}
+
+.logout-button:hover {
+    background-color: #475569;
+    transform: translateY(-2px);
+}

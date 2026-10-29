@@ -19,7 +19,12 @@ import './index.css';
 // import MyButtonTest2 from './08/MyButtonTest2'
 // import ConfirmButton from "./08/ConfirmButton";
 // import ConfirmButton2 from "./08/ConfirmButton2";
-import ListerTest from "./08/ListenerTest"
+// import ListerTest from "./08/ListenerTest"
+// import Greeting from './09/ex1/Greeting'
+// import LogInControl from './09/ex2/LogInControl';
+// import Mailbox from './09/ex3/Mailbox';
+// import MainPage from "./09/ex4/MainPage";
+import LandingPage from './09/finalex/LandingPage'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -42,7 +47,10 @@ setInterval(()=>{
                 {/*<MyButtonTest2/>*/}
                 {/*<ConfirmButton/>*/}
                 {/*<ConfirmButton2/>*/}
-                <ListerTest/>
+                {/*<Mailbox />*/}
+                {/*<LogInControl />*/}
+                {/*<MainPage/>*/}
+                <LandingPage />
             </React.StrictMode>
         );
 

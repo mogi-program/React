@@ -16,6 +16,12 @@ class ConfirmButton extends Component {
         }));
     }
 
+    handleClick2 = () => {
+        this.setState(prevState => ({
+            isToggleOn: !prevState.isToggleOn
+        }))
+    }
+
     render() {
         return (
             <button onClick={this.handleClick} className="toggle" disabled={!this.state.isToggleOn}>
