@@ -1,0 +1,73 @@
+.reservation-container {
+    width: 320px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color: #f4f8ff;
+    border: 2px solid #c9dcf5;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-container h2 {
+    text-align: center;
+    color: #3976b9;
+    margin: 0 0 10px 0;
+}
+
+.reservation-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #444;
+    font-weight: bold;
+}
+
+.reservation-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #438bd1;
+    cursor: pointer;
+}
+
+.reservation-label input[type="number"] {
+    width: 80px;
+    padding: 8px;
+
+    border: 1px solid #b5cce8;
+    border-radius: 6px;
+
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+.reservation-label input[type="number"]:focus {
+    border-color: #438bd1;
+}
+
+.reservation-container button {
+    padding: 12px;
+
+    background-color: #438bd1;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+}
+
+.reservation-container button:hover {
+    background-color: #2865a5;
+}

@@ -1,0 +1,71 @@
+
+/* 전체 출석부 */
+.attendance-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fc;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.attendance-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* 학생 목록 */
+.student-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* 학생 카드 */
+.student-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* 마우스 올렸을 때 */
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 학생 사진 */
+.student-card img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e0e7ff;
+}
+
+/* 학생 정보 */
+.student-info h3 {
+    margin: 0 0 8px;
+    color: #333;
+    font-size: 18px;
+}
+
+.student-info p {
+    margin: 0;
+    color: #777;
+    font-size: 13px;
+}
+
+/* 작은 화면 대응 */
+@media (max-width: 550px) {
+    .student-list {
+        grid-template-columns: 1fr;
+    }
+}

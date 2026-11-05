@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
 // import App from './App';
 // import TodoList from "./01/TodoList";
 // import Library from "./03/enhanced_css/Library";
@@ -24,8 +25,13 @@ import './index.css';
 // import LogInControl from './09/ex2/LogInControl';
 // import Mailbox from './09/ex3/Mailbox';
 // import MainPage from "./09/ex4/MainPage";
-import LandingPage from './09/finalex/LandingPage'
-import reportWebVitals from './reportWebVitals';
+// import LandingPage from './09/finalex/LandingPage'
+// import MapTest from './10/MapTest';\
+// import AttendanceBook from "./10/AttendanceBook";
+
+// import AttendanceCardBook from "./10/AttendanceCardBook";
+// import FruitSelect from "./11/FruitSelect";
+import Reservation from "./11/Reservation";
 
 
 
@@ -50,7 +56,11 @@ setInterval(()=>{
                 {/*<Mailbox />*/}
                 {/*<LogInControl />*/}
                 {/*<MainPage/>*/}
-                <LandingPage />
+                {/*<LandingPage />*/}
+                {/*<MapTest />*/}
+                {/*<AttendanceBook/>*/}
+                {/*<AttendanceCardBook/>*/}
+                <Reservation/>
             </React.StrictMode>
         );
 
