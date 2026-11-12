@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import DistanceCalculator from "./12/ex5/DistanceCalculator";
 // import App from './App';
 // import TodoList from "./01/TodoList";
 // import Library from "./03/enhanced_css/Library";
@@ -31,7 +32,8 @@ import reportWebVitals from './reportWebVitals';
 
 // import AttendanceCardBook from "./10/AttendanceCardBook";
 // import FruitSelect from "./11/FruitSelect";
-import Reservation from "./11/Reservation";
+// import Reservation from "./11/Reservation";
+// import Calculator from "./12/ex4/Calculator";
 
 
 
@@ -60,7 +62,9 @@ setInterval(()=>{
                 {/*<MapTest />*/}
                 {/*<AttendanceBook/>*/}
                 {/*<AttendanceCardBook/>*/}
-                <Reservation/>
+                {/*<Reservation/>*/}
+                {/*<Calculator/>*/}
+                <DistanceCalculator/>
             </React.StrictMode>
         );
 
