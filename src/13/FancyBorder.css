@@ -1,0 +1,13 @@
+.FancyBorder {
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* 테두리 색상 */
+.FancyBorder-blue {
+    border-color: #3498db;
+}
