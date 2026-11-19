@@ -1,0 +1,35 @@
+.Card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.Card:hover {
+    transform: translateY(-5px);
+}
+
+.Card h1 {
+    font-size: 22px;
+    color: #333333;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.Card p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* 이미지 크기 통일 */
+.Card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+}

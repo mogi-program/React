@@ -1,0 +1,33 @@
+/* 닉네임 입력창 */
+.SignUp-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* 입력창 클릭 시 */
+.SignUp-input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* 가입하기 버튼 */
+.SignUp-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 버튼에 마우스를 올렸을 때 */
+.SignUp-button:hover {
+    background-color: #2980b9;
+}

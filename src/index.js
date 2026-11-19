@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import DistanceCalculator from "./12/ex5/DistanceCalculator";
-import WelcomeDialog from "./13/WelcomeDialog";
+import ProfileCard from "./13/ex4/ProfileCard";
+// import SignUpDialog from "./13/ex3/SignUpDialog";
+// import DistanceCalculator from "./12/ex5/DistanceCalculator";
+// import WelcomeDialog from "./13/ex2/WelcomeDialog";
 // import App from './App';
 // import TodoList from "./01/TodoList";
 // import Library from "./03/enhanced_css/Library";
@@ -66,7 +68,9 @@ setInterval(()=>{
                 {/*<Reservation/>*/}
                 {/*<Calculator/>*/}
                 {/*<DistanceCalculator/>*/}
-                <WelcomeDialog />
+                {/*<WelcomeDialog />*/}
+                {/*<SignUpDialog />*/}
+                <ProfileCard />
             </React.StrictMode>
         );
 
